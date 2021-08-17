@@ -1,32 +1,21 @@
 {
   "name": "pulse",
   "version": "1.0.0",
-  "description": "Smart watch, pulse, leisure, watch shop",
+  "description": "",
   "main": "index.js",
   "scripts": {
-    "dev": "webpack --mode development",
-    "build": "webpack --mode production"
+    "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/PavelTerekhov/pulse_project.git"
-  },
-  "keywords": [
-    "Pulse",
-    "watch",
-    "shop",
-    "smart",
-    "watch",
-    "fitness"
-  ],
   "author": "Pavel Terekhov",
   "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/PavelTerekhov/pulse_project/issues"
-  },
-  "homepage": "https://github.com/PavelTerekhov/pulse_project#readme",
   "devDependencies": {
-    "webpack": "^5.50.0",
-    "webpack-cli": "^4.7.2"
+    "browser-sync": "^2.27.5",
+    "gulp": "^4.0.2",
+    "gulp-autoprefixer": "^8.0.0",
+    "gulp-clean-css": "^4.3.0",
+    "gulp-cli": "^2.3.0",
+    "gulp-rename": "^2.0.0",
+    "gulp-sass": "^5.0.0",
+    "sass": "^1.38.0"
   }
 }
